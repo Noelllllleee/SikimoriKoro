@@ -45,16 +45,16 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", True))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", "2051052913:AAFI68P8lri8W4k3Ol28kNkudjDv-1sATx8")
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", 2088106582))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
      
-    ERROR_LOG_CHANNEL = os.environ.get("ERROR_LOG_CHANNEL", None)
-    JOIN_LOGGER = os.environ.get("JOIN_LOGGER", None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    ERROR_LOG_CHANNEL = os.environ.get("ERROR_LOG_CHANNEL", "-1001599383497")
+    JOIN_LOGGER = os.environ.get("JOIN_LOGGER", "-1001667806389")
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "2088106582")
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
@@ -77,13 +77,13 @@ if ENV:
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
-    EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
+    EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1001630797628")
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
     URL = os.environ.get("URL", "")  # Does not contain token
     PORT = int(os.environ.get("PORT", 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
-    API_ID = os.environ.get("API_ID", None)
-    API_HASH = os.environ.get("API_HASH", None)
+    API_ID = os.environ.get("API_ID", 4769821)
+    API_HASH = os.environ.get("API_HASH", "4d3d6bb59a8ce823fe2ee25331222838")
     DB_URL = os.environ.get("DATABASE_URL")
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
