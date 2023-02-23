@@ -104,7 +104,7 @@ if ENV:
     REDIS_URL = os.environ.get("REDIS_URL")
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
-    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", "KwBtWJRFimYZgJTc_KquBM8qKmUGThHIn4~cE4h47eP29FrcXiTikVAoAGfQE_ah")
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = os.environ.get("ARQ_API", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
