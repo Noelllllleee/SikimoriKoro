@@ -45,7 +45,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", True))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", "2051052913:AAFI68P8lri8W4k3Ol28kNkudjDv-1sATx8")
 
     try:
         OWNER_ID = int(os.environ.get("OWNER_ID", 2088106582))
@@ -84,9 +84,9 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get("API_ID", 4769821)
     API_HASH = os.environ.get("API_HASH", "4d3d6bb59a8ce823fe2ee25331222838")
-    DB_URL = os.environ.get("DATABASE_URL")
+    DB_URL = os.environ.get("DATABASE_URL", "postgres://erhftgpv:5TiNMAkyEvdv0694fmZ-jHuhzxjje2An@lallah.db.elephantsql.com/erhftgpv")
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://anime:anime@cluster0.ulwu5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     ARQ_API = os.environ.get("ARQ_API_BASE_URL", None)
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
@@ -101,7 +101,7 @@ if ENV:
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     API_WEATHER = os.environ.get("API_WEATHER", None)
     WALL_API = os.environ.get("WALL_API", None)
-    REDIS_URL = os.environ.get("REDIS_URL")
+    REDIS_URL = os.environ.get("REDIS_URL", "redis://:O1ZqzmhQeJVgjT4RQrsTEuDSDTq3MGgu@redis-18361.c245.us-east-1-3.ec2.cloud.redislabs.com:18361")
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", "KwBtWJRFimYZgJTc_KquBM8qKmUGThHIn4~cE4h47eP29FrcXiTikVAoAGfQE_ah")
@@ -115,7 +115,7 @@ if ENV:
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "micchon_shikimori_bot")
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Shikimori_bot_Updates")
     ALIVE_MEDIA = os.environ.get("ALIVE_MEDIA", "https://telegra.ph/file/2b04f7812f22b983f8a10.mp4")
-    BOT_ID = os.environ.get("BOT_ID", "5169508699")
+    BOT_ID = os.environ.get("BOT_ID", "2051052913")
     STATS_IMG = os.environ.get("STATS_IMG", None)
     NETWORK = os.environ.get("NETWORK", None)
     NETWORK_USERNAME = os.environ.get("NETWORK_USERNAME", None)
