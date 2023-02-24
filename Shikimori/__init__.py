@@ -84,7 +84,7 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get("API_ID", 4769821)
     API_HASH = os.environ.get("API_HASH", "4d3d6bb59a8ce823fe2ee25331222838")
-    DB_URL = os.environ.get("DATABASE_URL", "postgres://erhftgpv:5TiNMAkyEvdv0694fmZ-jHuhzxjje2An@lallah.db.elephantsql.com/erhftgpv")
+    DB_URL = os.environ.get("DATABASE_URL", "postgres://erhftgpv:Q5hddUsSrBz1Q8pQTdsGLf3oe9eKdviu@lallah.db.elephantsql.com/erhftgpv")
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://anime:anime@cluster0.ulwu5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     ARQ_API = os.environ.get("ARQ_API_BASE_URL", None)
