@@ -14,7 +14,6 @@ hachoir
 pykeyboard
 pynewtonmath
 aiofiles
-ffmpeg-python
 spongemock
 zalgo-text
 geopy
@@ -33,7 +32,6 @@ wikipedia
 markdown2
 telethon
 telegraph
-heroku3
 spamwatch
 alphabet_detector
 pyrate-limiter
@@ -41,10 +39,8 @@ cachetools
 ujson
 pretty_errors
 pygithub
-TgCrypto
 Pyrogram
 PyDictionary
-git+https://github.com/Sorrybabe/downloader
 lyrics_extractor
 asyncio
 cloudscraper
